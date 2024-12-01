@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple To-Do List</title>
+  <link rel="stylesheet" href="to.css">
+</head>
+<body>
+  <h1>To-Do List</h1>
+  <div class="todo-container">
+    <input type="text" id="todoInput" placeholder="Enter a task" maxlength="50">
+    <button onclick="addTodo()">Add</button>
+    <ul id="todoList"></ul>
+    <p id="errorMessage" style="color: red; display: none;">Max 10 tasks allowed!</p>
+  </div>
+  <script src="to.js"></script>
+</body>
+</html>
